@@ -1,0 +1,35 @@
+{
+    "name": "edmilson/initial-default-project",
+    "description": "Initial structure of a project",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "edmilson",
+            "email": "edmquintino@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0",
+        "coffeecode/router": "^1.0",
+        "matthiasmullie/minify": "^1.3"
+    },
+    "autoload": {
+        "files": [
+            "src/Boot/Helpers.php",
+            "src/Boot/Minify.php"
+        ],
+        "psr-4": {
+            "_App\\": "src/_App",
+            "Boot\\": "src/Boot",
+            "Config\\": "src/Config",
+            "Core\\": "src/Core",
+            "Database\\": "src/Database",
+            "Models\\": "src/Models",
+            "Support\\": "src/Support",
+            "Traits\\": "src/Traits"
+        }
+    }
+}
