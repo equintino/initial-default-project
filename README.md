@@ -10,4 +10,6 @@
 ```
 ```shell
 
+composer create-project edmilson/initial-default-project
+
 ```
