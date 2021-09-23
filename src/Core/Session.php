@@ -9,6 +9,9 @@ class Session
 
     public function __construct()
     {
+        if(!file_exists(__DIR__ . "/../ses")) {
+            mkdir (__DIR__ . "/../ses");
+        }
         if(!session_id()) {
             session_save_path(__DIR__ . "/../ses");
             session_name("SVSESSID");
