@@ -9,11 +9,12 @@ class Session
 
     public function __construct()
     {
-        if(!file_exists(__DIR__ . "/../ses")) {
-            mkdir (__DIR__ . "/../ses");
+        $connectionDirectory = __DIR__ . "/../ses";
+        if(!file_exists($connectionDirectory)) {
+            mkdir ($connectionDirectory);
         }
         if(!session_id()) {
-            session_save_path(__DIR__ . "/../ses");
+            session_save_path($connectionDirectory);
             session_name("SVSESSID");
             session_start();
         }
