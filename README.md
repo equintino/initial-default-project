@@ -13,3 +13,9 @@
 composer create-project edmilson/initial-default-project
 
 ```
+
+## Grant directories permissions
+
+In the root of the project
+
+chmod 777 initial-default-project
