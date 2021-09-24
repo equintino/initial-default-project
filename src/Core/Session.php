@@ -11,7 +11,7 @@ class Session
     {
         $connectionDirectory = __DIR__ . "/../ses";
         if(!file_exists($connectionDirectory)) {
-            mkdir ($connectionDirectory);
+            mkdir($connectionDirectory);
         }
         if(!session_id()) {
             session_save_path($connectionDirectory);

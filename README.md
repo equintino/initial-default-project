@@ -20,7 +20,7 @@ In the root of the project
 
 ```shell
 chmod 777 initial-default-project
-chmod 777 initial-default-project/themes/template/assets
-chmod 777 initial-default-project/src/
+chmod 777 initial-default-project/themes/template/assets/*
+chmod 777 initial-default-project/src/ses
 chmod 777 initial-default-project/src/Config/
 ```
