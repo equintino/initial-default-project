@@ -6,7 +6,7 @@ composer.lock
 src/Config/.config.ini
 src/ses/*
 themes/template/assets/style.css
-themes/template/assets/script.js
+themes/template/assets/scripts.js
 vendor
 ### Codeio ###
 .codio
