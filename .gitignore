@@ -4,7 +4,7 @@
 .env
 composer.lock
 src/Config/.config.ini
-src/ses/*
+#src/ses/*
 themes/template/assets/style.css
 themes/template/assets/scripts.js
 vendor
