@@ -5,9 +5,7 @@
  ## Use
 
  To use just follow the example below:
-```php
 
-```
 ```shell
 
 composer create-project edmilson/initial-default-project
